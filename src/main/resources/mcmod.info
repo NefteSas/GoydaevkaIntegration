@@ -1,13 +1,13 @@
 [
   {
     "modid": "gtd",
-    "name": "Goydaevka Server Tools",
+    "name": "Goydaevka NTM Integration",
     "version": "${modVersion}",
     "mcversion": "1.7.10",
-    "description": "An example mod for Minecraft 1.7.10 with Forge built using RetroFuturaGradle.",
+    "description": "An NTM integration for MCHeli. Thx to Bob for textures.",
     "url": "https://github.com/GTNewHorizons/RetroFuturaGradle/",
     "credits": "",
-    "authorList": ["eigenraven"],
+    "authorList": ["PunishedBenzene"],
     "dependencies": []
   }
 ]

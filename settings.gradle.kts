@@ -1,4 +1,4 @@
-rootProject.name = "Goydaevka Tools"
+rootProject.name = "Goydaevka Integration"
 
 pluginManagement {
   repositories {
