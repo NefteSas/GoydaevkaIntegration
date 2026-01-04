@@ -5,5 +5,6 @@ public enum TankComponentEnum {
     FIRST_ERA,
     SECOND_ERA,
     NATO_ARMOR,
-    RUSSIAN_ARMOR
+    RUSSIAN_ARMOR,
+    NERA_ASSEMBLY
 }
