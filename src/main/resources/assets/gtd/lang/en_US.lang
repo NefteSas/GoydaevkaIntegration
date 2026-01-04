@@ -1,0 +1,10 @@
+item.tank_component.roller.name=Roadwheel
+item.tank_component.first_era.name=First Generation Explosive Reactive Armor
+item.tank_component.second_era.name=Second Generation Explosive Reactive Armor
+item.tank_component.third_era.name=Third Generation Explosive Reactive Armor
+item.tank_component.nato_armor.name=Composite Armor with NERA Elements
+item.tank_component.russian_armor.name=Composite Armor with Textolite Plates
+item.tank_component.rolled_armor.name=Rolled Homogeneous Armor Plate
+item.wheel.name=Wheel
+item.tank_component.nera_assembly.name=NERA Element
+item.textolite_plate.name=Textolite Plate
