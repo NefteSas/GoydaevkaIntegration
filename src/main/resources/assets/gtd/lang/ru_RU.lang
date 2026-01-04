@@ -1,7 +1,10 @@
-item.tank_component.roller.name=Танковый каток
+item.tank_component.roller.name=Опорный каток
 item.tank_component.first_era.name=Динамическая Защита Первого Поколения
 item.tank_component.second_era.name=Динамическая Защита Второго Поколения
 item.tank_component.third_era.name=Динамическая Защита Третьего Поколения
 item.tank_component.nato_armor.name=Комбинировнная Броня с Элементами NERA
 item.tank_component.russian_armor.name=Комбинировнная Броня с Листами Текстолита
 item.tank_component.rolled_armor.name=Лист Катанной Гомогенной Брони
+item.wheel.name=Колесо
+item.tank_component.nera_assembly.name=Элемент NERA
+item.textolite_plate.name=Лист Текстолита

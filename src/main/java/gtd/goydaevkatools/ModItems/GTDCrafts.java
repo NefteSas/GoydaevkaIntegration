@@ -6,6 +6,7 @@ import com.hbm.main.CraftingManager;
 import cpw.mods.fml.common.registry.GameRegistry;
 import gtd.goydaevkatools.VesselsComponents.TankComponentEnum;
 import net.minecraft.init.Blocks;
+import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 
 import static com.hbm.inventory.OreDictManager.*;
@@ -74,6 +75,13 @@ public class GTDCrafts {
                 "XXX", "YYY", "XXX",
                 ('X'), STEEL.plate(),
                 ('Y'), ANY_RUBBER.ingot()
+            }
+        );
+        CraftingManager.addRecipeAuto(new ItemStack(GTDITems.wheel, 1),
+            new Object[]{
+                "XXX", "XYX", "XXX",
+                ('X'), ANY_RUBBER.ingot(),
+                ('Y'), Items.iron_ingot
             }
         );
         CraftingManager.addRecipeAuto(GTDITems.tankComponents.stackFromEnum(TankComponentEnum.NATO_ARMOR),

@@ -10,13 +10,16 @@ public class GTDITems {
 
     public static ItemEnumMulti tankComponents;
     public static Item textolite_plate;
+    public static Item wheel;
 
     public static void InstntinateItems(){
         tankComponents = (ItemEnumMulti) new ItemEnumMulti(TankComponentEnum.class, true, true).setUnlocalizedName("tank_component").setCreativeTab(CORE.gtdTab).setTextureName(CORE.MODID + ":tank_component");
         textolite_plate = new Item().setUnlocalizedName("textolite_plate").setCreativeTab(CORE.gtdTab).setTextureName(CORE.MODID + ":textolite_plate");
+        wheel = new Item().setUnlocalizedName("wheel").setCreativeTab(CORE.gtdTab).setTextureName(CORE.MODID + ":wheel");
     }
     public static void RegisterItems(){
         GameRegistry.registerItem(tankComponents, tankComponents.getUnlocalizedName());
         GameRegistry.registerItem(textolite_plate,textolite_plate.getUnlocalizedName());
+        GameRegistry.registerItem(wheel,wheel.getUnlocalizedName());
     }
 }
